@@ -1,0 +1,12 @@
+logging.level.io.github.manuelarte.spring.games.pocha: DEBUG
+
+server.port: 8081
+
+auth0:
+  audience: http://event-source-games.com
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: "https://manuelarte.eu.auth0.com/"
